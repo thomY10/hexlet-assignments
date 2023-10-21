@@ -55,6 +55,7 @@ public final class App {
             } catch (ValidationException e) {
                 var page = new NewArticlePage(title, content, e.getErrors());
                 ctx.status(422);
+                ctx.status(422);
                 ctx.render("articles/build.jte", Collections.singletonMap("page", page));
             }
         });
