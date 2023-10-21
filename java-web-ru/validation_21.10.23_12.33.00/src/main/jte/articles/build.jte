@@ -22,9 +22,11 @@
     <div>
         <label for="content">content:</label>
     </div>
-    <textarea id="content" name="content">
-        ${page.getContent()}
-    </textarea>
+    <div>
+        <textarea id="content" name="content">
+            ${page.getContent()}
+        </textarea>
+    </div>
     <div>
         <input type="submit" value="Send" />
     </div>
