@@ -18,7 +18,7 @@
             title
             <input type="text" name="title" value="${page.getTitle()}" />
         </label>
-    </di
+    </div>
     <div>
         <label for="content">content:</label>
     </div>
